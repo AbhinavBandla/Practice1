@@ -4,3 +4,4 @@ git status  - used to check the status of files .
 git add Folder/file_name - used to stage or track our files by path 
 git commit -m "_ msg" - used to commit all the tracked files.
 git push origin main - to the local file to the remote. 
+
