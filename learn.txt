@@ -1,0 +1,4 @@
+git remote add origin https://github.com/AbhinavBandla/Practice1.git
+git remote -v
+git status 
+git add Folder/file_name
