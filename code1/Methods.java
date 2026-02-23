@@ -8,8 +8,6 @@ class Main{
         System.out.print("Enter the value to get Square : ");
         int a = scanner.nextInt();
 
-        
-
         System.out.print("Enter the to know Even or not  : ");
         int b = scanner.nextInt();
 
@@ -36,12 +34,13 @@ class Main{
     static void method2(String name){ // we can pass required parameters here..9
         System.out.printf("Hello Mr/Mrs.%s\n",name);
     }
-
+    //return type 
     static int square(int x ){
         return x*x;
     }
-
+    //with condition
     static boolean isEven(int y ){
         return (y%2==0)? true : false;
     }
+
 }
