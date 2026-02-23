@@ -14,9 +14,12 @@ class objectclass{
         s1.id = 472;
         s1.marks = 98;
 
-        System.out.println(s1.name);
+      /*   System.out.println(s1.name);
         System.out.println(s1.id);
         System.out.println(s1.marks);
+
+      */
+        s1.stu1();
 
     }
 
@@ -27,5 +30,10 @@ class objectclass{
         String name;
         int id;
         int marks;
+
+        void stu1(){
+            System.out.printf("Hello %s your id is %d you obtain %d ",name,id,marks);
+        }
+
     }
 }
