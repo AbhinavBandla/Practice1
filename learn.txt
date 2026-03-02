@@ -5,3 +5,8 @@ git add Folder/file_name - used to stage or track our files by path
 git commit -m "_ msg" - used to commit all the tracked files.
 git push origin main - to the local file to the remote. 
 Hello
+git branch - shows at which branch we are actually in (*bramch_name)
+to create Branch name - 
+         git checkout -b _branchName_
+
+to change the branch - git switch (branch name)
