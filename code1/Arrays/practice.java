@@ -1,3 +1,6 @@
+
+ // *************  Array of objects Practice program   ******
+
 import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
@@ -9,7 +12,8 @@ class Main {
     Car[] car = new Car[size];
     
     for(int i = 0 ;i< car.length ; i++){
-        System.out.println("Enter car details ");
+        i=+1;
+        System.out.println("Enter car details : "+ i);
         System.out.print("Enter the brand  : ");
         String brand = scanner.nextLine();
         
