@@ -40,6 +40,9 @@ class stabase{
 
         Apartment a2 = new Apartment("Abhinav",504);
 
+        //if you want to chnge the static var date just do this class_name.var_name = value;
+       // Apartment.appName = "sky Towers";  // but here we have consider on thing that if you modify once it will change in over all data 
+
         System.out.println(a1.flatname + " " + a1.flatnum + " "+Apartment.appName);
         System.out.println(a2.flatname + " " + a2.flatnum + " "+Apartment.appName);
     }
