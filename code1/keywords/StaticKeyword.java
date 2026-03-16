@@ -47,3 +47,97 @@ class stabase{
         System.out.println(a2.flatname + " " + a2.flatnum + " "+Apartment.appName);
     }
 }
+
+// practice 1 
+/*   
+
+class Main {
+    public static void main(String[] args) {
+        Student s1 =  new Student("Abhinav",472);
+        Student s2 =  new Student("AAnad",473);
+        s1.display();
+        s2.display();
+    }
+}
+class Student{
+    String name ;
+    int rollNo ;
+    static String collegeName = "Narayana Engineering  ";
+    
+    Student (String name , int roll){
+        this.name = name ;
+        this.rollNo = roll;
+    }
+    
+    void display(){
+        System.out.println(name + " " + rollNo + " "+collegeName);
+    }
+}  
+ */
+
+
+//   ************** Example 2 ****************
+
+
+/*
+    
+
+class Main {
+    public static void main(String[] args) {
+        Employee e1 =  new Employee("Abhinav",472);
+        Employee e2 =  new Employee("AAnad",473);
+        Employee.companyName = "TCS";
+        
+        System.out.println(e1.getDetails());
+        System.out.println(e2.getDetails());
+    }
+}
+
+class Employee{
+    String name ;
+    int empId ;
+    static String companyName = " Infosis  ";
+    
+    Employee (String name , int Id){
+        this.name = name ;
+        this.empId = Id;
+    }
+    
+    String getDetails(){
+       return name + " " + empId + " " + companyName;
+    }
+}
+*/
+
+
+//   ************* example 3 ************
+
+
+/* 
+class Main {
+    public static void main(String[] args) {
+        Car c1 =  new Car("RED",3000000);
+        System.out.println(c1.display());
+        Car c2 =  new Car("Black &Red",560000);
+        //here actually by the order Static value chamges to  "HONDA"
+        Car.brand = "Honda";
+        System.out.println(c2.display());
+        System.out.println(c1.display());
+    }
+}
+
+class Car{
+    String colour ;
+    int price ;
+    static String brand = " TOYOTA  ";
+    
+    Car(String colour , int price){
+        this.colour = colour ;
+        this.price = price;
+    }
+    
+    String display(){
+       return colour + " " + price + " " + brand;
+    }
+}
+    */
