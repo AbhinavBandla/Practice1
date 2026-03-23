@@ -10,3 +10,11 @@ to create Branch name -
          git checkout -b _branchName_
 
 to change the branch - git switch (branch name)
+
+
+
+
+
+JAVA Rule:
+
+If a class is declared as public, the file name must match the class name exactly.
