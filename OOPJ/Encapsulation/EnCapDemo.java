@@ -25,5 +25,15 @@ class enCap{
         private does not hide data from the class itself. It hides data from other classes.
         
         */
+
+        /*
+        ENCAPSULATION benefits
+            Data Security
+            Data Validation
+            Flexibility
+            Maintainability
+            Better Code Management
+
+        */
     }
 }
